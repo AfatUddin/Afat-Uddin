@@ -1,0 +1,88 @@
+import type { SkillGroup } from "@/types";
+
+export const skillGroups: SkillGroup[] = [
+  {
+    title: "Generative AI &amp; ML",
+    items: [
+      "Google Gemini API",
+      "OpenAI API",
+      "Replicate API",
+      "LangChain",
+      "RAG Pipelines",
+      "pgvector",
+      "BGE Embeddings",
+      "Prompt Engineering",
+      "Structured Output",
+      "Tool-Calling Agents",
+    ],
+  },
+  {
+    title: "Backend &amp; APIs",
+    items: [
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "FastAPI",
+      "Flask",
+      "REST API Design",
+      "OpenAPI / drf-spectacular",
+      "JWT &amp; OAuth2",
+      "Multi-tenant SaaS",
+    ],
+  },
+  {
+    title: "Async, Data &amp; Storage",
+    items: [
+      "Celery",
+      "Celery Beat",
+      "Redis",
+      "PostgreSQL",
+      "pgvector",
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+    ],
+  },
+  {
+    title: "Cloud, DevOps &amp; Reliability",
+    items: [
+      "Azure (Blob, Container Apps, Pipelines)",
+      "AWS (SES, RDS)",
+      "Docker (multi-stage)",
+      "Nginx",
+      "Supervisor",
+      "Gunicorn",
+      "Sentry",
+      "Prometheus",
+      "Grafana",
+      "Fluentd",
+    ],
+  },
+  {
+    title: "Integrations &amp; Payments",
+    items: [
+      "Stripe (subscriptions, webhooks)",
+      "Google OAuth2",
+      "Meta Ads API",
+      "LinkedIn Ads API",
+      "Twitter Ads API",
+      "SendGrid",
+      "Mailgun",
+      "Cloudinary",
+      "Pexels / Unsplash / Shutterstock",
+    ],
+  },
+  {
+    title: "Quality &amp; Tooling",
+    items: [
+      "Pytest",
+      "factory_boy",
+      "pytest-django",
+      "Git &amp; GitHub",
+      "Azure DevOps",
+      "Linux",
+      "BeautifulSoup / Scrapy / Selenium",
+      "Tailwind CSS / React (working)",
+    ],
+  },
+];

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Review Management System cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b14"/>
+      <stop offset="55%" stop-color="#1a1740"/>
+      <stop offset="100%" stop-color="#2a1d4d"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5b6cff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5b6cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d6a85a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#d6a85a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b6cff"/>
+      <stop offset="100%" stop-color="#d6a85a"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14"/>
+      <feOffset dy="10"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.35"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="240" cy="180" r="380" fill="url(#glowA)"/>
+  <circle cx="1380" cy="820" r="420" fill="url(#glowB)"/>
+
+  <!-- title block -->
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="100" y="170" fill="#ffffff" fill-opacity="0.55" font-size="22" letter-spacing="6" font-weight="600">CASE&#160;STUDY&#160;·&#160;CUSTOMER&#160;EXPERIENCE&#160;SAAS</text>
+    <text x="100" y="280" fill="#ffffff" font-size="96" font-weight="700" letter-spacing="-2">Review Management</text>
+    <text x="100" y="380" fill="#ffffff" font-size="96" font-weight="700" letter-spacing="-2">System</text>
+    <text x="100" y="450" fill="#ffffff" fill-opacity="0.7" font-size="28" font-weight="500">Email · SMS · WhatsApp · Google Business API</text>
+
+    <!-- accent underline -->
+    <rect x="100" y="490" width="220" height="6" rx="3" fill="url(#accent)"/>
+  </g>
+
+  <!-- review card stack -->
+  <g filter="url(#shadow)">
+    <!-- card 1 -->
+    <g transform="translate(880,140)">
+      <rect width="600" height="220" rx="28" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.12"/>
+      <circle cx="60" cy="60" r="26" fill="#5b6cff"/>
+      <text x="60" y="68" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff" font-family="Inter">A</text>
+      <text x="110" y="58" font-size="22" font-weight="600" fill="#ffffff" font-family="Inter">Aria L.</text>
+      <text x="110" y="84" font-size="16" fill="#ffffff" fill-opacity="0.6" font-family="Inter">Google · 2 days ago</text>
+      <!-- 5 stars -->
+      <g transform="translate(420,42)">
+        <g fill="#d6a85a">
+          <path d="M0 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+          <path d="M40 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+          <path d="M80 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+          <path d="M120 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+          <path d="M160 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+        </g>
+      </g>
+      <text x="40" y="140" font-size="18" fill="#ffffff" fill-opacity="0.9" font-family="Inter">“Quick service, kind staff. Will come back —</text>
+      <text x="40" y="170" font-size="18" fill="#ffffff" fill-opacity="0.9" font-family="Inter">honestly the easiest checkout I&apos;ve had in months.”</text>
+    </g>
+
+    <!-- card 2 -->
+    <g transform="translate(820,400)">
+      <rect width="640" height="200" rx="28" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.12"/>
+      <circle cx="60" cy="56" r="26" fill="#22c55e"/>
+      <text x="60" y="64" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff" font-family="Inter">M</text>
+      <text x="110" y="54" font-size="22" font-weight="600" fill="#ffffff" font-family="Inter">Marcus K.</text>
+      <text x="110" y="80" font-size="16" fill="#ffffff" fill-opacity="0.6" font-family="Inter">WhatsApp request · replied today</text>
+      <g transform="translate(440,38)" fill="#d6a85a">
+        <path d="M0 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+        <path d="M40 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+        <path d="M80 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+        <path d="M120 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+        <path d="M160 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+      </g>
+      <text x="40" y="130" font-size="18" fill="#ffffff" fill-opacity="0.9" font-family="Inter">“Got the SMS link, dropped a 5-star, took 12</text>
+      <text x="40" y="160" font-size="18" fill="#ffffff" fill-opacity="0.9" font-family="Inter">seconds. Much better than the old form.”</text>
+    </g>
+
+    <!-- card 3 (small KPI tile) -->
+    <g transform="translate(880,640)">
+      <rect width="280" height="170" rx="24" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="32" y="56" font-size="14" letter-spacing="2" font-weight="600" fill="#ffffff" fill-opacity="0.6" font-family="Inter">RESPONSE&#160;RATE</text>
+      <text x="32" y="118" font-size="56" font-weight="700" fill="#ffffff" font-family="Inter">+47%</text>
+      <text x="32" y="148" font-size="14" fill="#ffffff" fill-opacity="0.55" font-family="Inter">vs. single-channel email</text>
+    </g>
+
+    <g transform="translate(1180,640)">
+      <rect width="280" height="170" rx="24" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="32" y="56" font-size="14" letter-spacing="2" font-weight="600" fill="#ffffff" fill-opacity="0.6" font-family="Inter">CHANNELS</text>
+      <text x="32" y="118" font-size="56" font-weight="700" fill="#ffffff" font-family="Inter">3</text>
+      <text x="32" y="148" font-size="14" fill="#ffffff" fill-opacity="0.55" font-family="Inter">Email · SMS · WhatsApp</text>
+    </g>
+  </g>
+
+  <!-- channel chips -->
+  <g transform="translate(100,580)" font-family="Inter, ui-sans-serif">
+    <g>
+      <rect width="170" height="46" rx="23" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/>
+      <circle cx="26" cy="23" r="6" fill="#5b6cff"/>
+      <text x="46" y="29" font-size="16" font-weight="600" fill="#ffffff">Email</text>
+    </g>
+    <g transform="translate(186,0)">
+      <rect width="170" height="46" rx="23" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/>
+      <circle cx="26" cy="23" r="6" fill="#22c55e"/>
+      <text x="46" y="29" font-size="16" font-weight="600" fill="#ffffff">SMS</text>
+    </g>
+    <g transform="translate(372,0)">
+      <rect width="200" height="46" rx="23" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15"/>
+      <circle cx="26" cy="23" r="6" fill="#d6a85a"/>
+      <text x="46" y="29" font-size="16" font-weight="600" fill="#ffffff">WhatsApp</text>
+    </g>
+  </g>
+
+  <!-- stack tags -->
+  <g transform="translate(100,690)" font-family="Inter, ui-sans-serif" font-size="14" fill="#ffffff" fill-opacity="0.65">
+    <text x="0" y="20" letter-spacing="3" font-weight="600">DJANGO&#160;·&#160;DRF&#160;·&#160;CELERY&#160;·&#160;REDIS&#160;·&#160;POSTGRESQL&#160;·&#160;DOCKER</text>
+  </g>
+
+  <!-- big rating -->
+  <g transform="translate(100,790)" font-family="Inter, ui-sans-serif">
+    <text x="0" y="60" font-size="120" font-weight="700" fill="#ffffff">4.9</text>
+    <text x="180" y="48" font-size="20" letter-spacing="2" font-weight="600" fill="#ffffff" fill-opacity="0.7">AVERAGE&#160;RATING</text>
+    <text x="180" y="78" font-size="16" fill="#ffffff" fill-opacity="0.55">across 12,400 verified reviews</text>
+    <g transform="translate(180,90)" fill="#d6a85a">
+      <path d="M0 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+      <path d="M40 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+      <path d="M80 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+      <path d="M120 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+      <path d="M160 18 l6 -12 l6 12 l13 2 l-9.5 9 l2.5 13 l-12 -7 l-12 7 l2.5 -13 l-9.5 -9 z"/>
+    </g>
+  </g>
+</svg>
